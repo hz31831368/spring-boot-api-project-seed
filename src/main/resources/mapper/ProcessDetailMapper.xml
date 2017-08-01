@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.ProcessDetailMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.ProcessDetail">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="order_id" jdbcType="INTEGER" property="orderId" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="process" jdbcType="VARCHAR" property="process" />
+    <result column="principal" jdbcType="VARCHAR" property="principal" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="valid" jdbcType="TINYINT" property="valid" />
+    <result column="deadline" jdbcType="TIMESTAMP" property="deadline" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="modify_date" jdbcType="TIMESTAMP" property="modifyDate" />
+  </resultMap>
+</mapper>

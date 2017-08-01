@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.OrderDetailMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.OrderDetail">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="order_id" jdbcType="INTEGER" property="orderId" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="requirement" jdbcType="VARCHAR" property="requirement" />
+    <result column="height" jdbcType="DOUBLE" property="height" />
+    <result column="width" jdbcType="DOUBLE" property="width" />
+    <result column="thickness" jdbcType="DOUBLE" property="thickness" />
+    <result column="num" jdbcType="DOUBLE" property="num" />
+    <result column="area" jdbcType="DOUBLE" property="area" />
+    <result column="final_num" jdbcType="DOUBLE" property="finalNum" />
+    <result column="price" jdbcType="DOUBLE" property="price" />
+    <result column="amount" jdbcType="DOUBLE" property="amount" />
+    <result column="pay_money" jdbcType="DOUBLE" property="payMoney" />
+    <result column="reveived_money" jdbcType="DOUBLE" property="reveivedMoney" />
+    <result column="valid" jdbcType="TINYINT" property="valid" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="modify_date" jdbcType="TIMESTAMP" property="modifyDate" />
+  </resultMap>
+</mapper>
